@@ -1,0 +1,10 @@
+source: /node_modules/@jridgewell/sourcemap-codec/
+collections_config: {}
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Europe/Stockholm
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
