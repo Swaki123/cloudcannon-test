@@ -10,7 +10,7 @@ collections_config:
     name:
     singular_name:
     icon: notes
-    url: http://localhost:4322/
+    url:
     disable_url: false
     include_developer_files:
     documentation:
