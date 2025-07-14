@@ -6,6 +6,31 @@ paths:
 collections_config:
   pages:
     path: /src/pages
+    glob: []
+    icon: web_asset
+    disable_url: false
+    description: ''
+    _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold:
+        copyformatting:
+        italic:
+        link:
+        paths:
+        redo:
+        removeformat:
+        strike:
+        subscript:
+        superscript:
+        underline:
+        undo:
+    _enabled_editors:
+      - visual
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 base_url: dist
 source_editor:
   tab_size: 2
