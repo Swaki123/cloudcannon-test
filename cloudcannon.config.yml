@@ -5,7 +5,17 @@ paths:
   static: public
 collections_config:
   pages:
-    path: /src/pages
+    path: src/pages
+    glob: []
+    icon: web_asset
+    disable_url: false
+    description: ''
+    _editables:
+    _enabled_editors:
+      - content
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 base_url: dist
 source_editor:
   tab_size: 2
