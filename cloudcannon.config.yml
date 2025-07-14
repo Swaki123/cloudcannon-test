@@ -1,5 +1,5 @@
 _schema: _schema
-source: /node_modules/@jridgewell/sourcemap-codec/
+source: /
 paths:
   uploads: public/uploads
   static: public
