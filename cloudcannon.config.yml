@@ -31,6 +31,7 @@ collections_config:
     new_preview_url:
     schemas:
     schema_key:
+base_url: dist
 timezone: Europe/Stockholm
 markdown:
   engine: commonmark
