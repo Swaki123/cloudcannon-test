@@ -4,8 +4,8 @@ paths:
   uploads: public/uploads
   static: public
 collections_config:
-  Pages:
-    path:
+  pages:
+    path: src/pages
     glob:
     name:
     singular_name:
@@ -32,6 +32,10 @@ collections_config:
     schemas:
     schema_key:
 base_url: dist
+source_editor:
+  tab_size: 2
+  theme: monokai
+  show_gutter: true
 timezone: Europe/Stockholm
 markdown:
   engine: commonmark
