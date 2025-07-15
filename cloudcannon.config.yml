@@ -1,5 +1,7 @@
 _schema: _schema
-source: /
+source: src
+bookshop:
+  path: src/bookshop
 paths:
   uploads: public/uploads
   static: public
