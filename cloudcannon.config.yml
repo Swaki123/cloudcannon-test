@@ -1,5 +1,5 @@
 _schema: _schema
-source: src
+source: /
 bookshop:
   path: src/bookshop
 paths:
