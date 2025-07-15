@@ -8,11 +8,12 @@ collections_config:
     path: src/content/pages
     glob: []
     icon: web_asset
-    url: '"/[slug'
+    url: '"/[slug/"'
     disable_url: false
     description: ''
     _editables:
     _enabled_editors:
+      - visual
       - content
     disable_add: false
     disable_add_folder: false
