@@ -1,18 +1,18 @@
 ---
 export interface Props {
   title: string;
-  subtitle?: string;
+  content?: string;
   image?: string;
 }
 
-const { title, subtitle, image } = Astro.props;
+const { title, content, image } = Astro.props;
 ---
 
 <section class="hero">
   {image && <img src={image} alt={title} class="hero-image" />}
   <div class="hero-content">
     <h1>{title}</h1>
-    {subtitle && <p class="hero-subtitle">{subtitle}</p>}
+    {content && <p class="hero-content-text">{content}</p>}
   </div>
 </section>
 
@@ -42,7 +42,7 @@ const { title, subtitle, image } = Astro.props;
   color: #1e293b;
   margin-bottom: 1rem;
 }
-.hero-subtitle {
+.hero-content-text {
   font-size: 1.25rem;
   color: #475569;
 }
