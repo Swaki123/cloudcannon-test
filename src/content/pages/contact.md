@@ -1,10 +1,10 @@
 ---
 title: Contact
-description: |-
-    Here is how to contact me:
-    Send a raven.
-    Use the Cerebro
+description: Contact page
 heroComponent:
-    title: About Us
-    description: Learn more about our mission, team, and technology stack.
+    title: Contact me
+    description: |-
+        Here is how to contact me:
+        Send a raven.
+        Use the Cerebro
 ---
