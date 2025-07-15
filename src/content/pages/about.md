@@ -2,6 +2,6 @@
 title: About Me
 description: Learn more about our mission, team, and technology stack.
 heroComponent:
-    title: About Me
+    title: About Us
     description: Learn more about our mission, team, and technology stack.
 ---
