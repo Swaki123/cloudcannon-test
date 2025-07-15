@@ -8,7 +8,7 @@ collections_config:
     path: src/content/pages
     glob: []
     icon: web_asset
-    url: "/[slug]/"
+    url: /[slug]/
     disable_url: false
     description: ''
     _editables:
@@ -18,7 +18,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-base_url: dist
 source_editor:
   tab_size: 2
   theme: monokai
