@@ -1,7 +1,7 @@
 _schema: _schema
 source: /
 bookshop:
-  path: src/bookshop
+  path: src/components
 paths:
   uploads: public/uploads
   static: public
@@ -10,7 +10,7 @@ collections_config:
     path: src/content/pages
     glob: []
     icon: web_asset
-    url: /[slug]/
+    url: "/[slug]/"
     disable_url: false
     description: ''
     _editables:
