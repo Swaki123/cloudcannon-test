@@ -5,7 +5,7 @@ paths:
   static: public
 collections_config:
   pages:
-    path: src/pages
+    path: src/content/pages
     glob: []
     icon: web_asset
     disable_url: false
