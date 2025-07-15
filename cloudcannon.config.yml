@@ -1,7 +1,5 @@
 _schema: _schema
 source: /
-bookshop:
-  path: src/components
 paths:
   uploads: public/uploads
   static: public
@@ -10,13 +8,12 @@ collections_config:
     path: src/content/pages
     glob: []
     icon: web_asset
-    url: "/[slug]/"
+    url: '"/[slug]/"'
     disable_url: false
     description: ''
     _editables:
     _enabled_editors:
       - visual
-      - content
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -44,3 +41,5 @@ markdown:
     superscript: false
     heading_ids: false
     attributes: false
+bookshop:
+  path: src/components
