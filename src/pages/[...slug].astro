@@ -10,7 +10,7 @@ export async function getStaticPaths() {
     }));
 }
 
-const { page } = Astro.props;
+const page = Astro.props.page;
 ---
 
 <AboutLayout frontmatter={page.data}></AboutLayout>
